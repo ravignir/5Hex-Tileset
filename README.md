@@ -1,4 +1,4 @@
-# 5Hex
+# 5Hex V1.0g
 A MASSIVE tileset mod for Unciv
 
 5Hex is a tileset/retexture mod which replaces all of the existing FantasyHex images and adds many more - including missing stuff from the expansions.
