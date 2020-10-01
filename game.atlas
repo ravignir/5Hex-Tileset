@@ -4738,545 +4738,538 @@ TileSets/FantasyHex/Units/Trireme
   index: -1
 
 game2.png
-size: 2048,512
+size: 512,1024
 format: RGBA8888
 filter: MipMapLinearLinear,MipMapLinearLinear
 repeat: none
 OtherIcons/Triangle
   rotate: false
-  xy: 1970, 422
+  xy: 330, 36
   size: 20, 60
   orig: 20, 60
   offset: 0, 0
   index: -1
-OtherIcons/whiteDot
-  rotate: false
-  xy: 2, 2
-  size: 5, 10
-  orig: 5, 10
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Gold
   rotate: false
-  xy: 2, 406
+  xy: 2, 946
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Iron
   rotate: false
-  xy: 2, 328
+  xy: 2, 868
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Lumber mill
   rotate: false
-  xy: 84, 406
+  xy: 84, 946
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Marble
   rotate: false
-  xy: 2, 250
+  xy: 2, 790
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Oil
   rotate: false
-  xy: 84, 328
+  xy: 84, 868
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Sacred grove
   rotate: false
-  xy: 166, 406
+  xy: 166, 946
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Salt
   rotate: false
-  xy: 2, 172
+  xy: 2, 712
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Silk
   rotate: false
-  xy: 84, 250
+  xy: 84, 790
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Silver
   rotate: false
-  xy: 166, 328
+  xy: 166, 868
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Spices
   rotate: false
-  xy: 248, 406
+  xy: 248, 946
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Truffles
   rotate: false
-  xy: 2, 94
+  xy: 2, 634
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Uranium
   rotate: false
-  xy: 84, 172
+  xy: 84, 712
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill
   rotate: false
-  xy: 166, 248
+  xy: 166, 788
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Antiquity Site
   rotate: false
-  xy: 248, 326
+  xy: 248, 866
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Archaeological Dig
   rotate: false
-  xy: 330, 404
+  xy: 330, 944
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+City
   rotate: false
-  xy: 2, 14
+  xy: 2, 554
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Fallout
   rotate: false
-  xy: 84, 92
+  xy: 84, 632
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Farm
   rotate: false
-  xy: 166, 168
+  xy: 166, 708
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Feitoria
   rotate: false
-  xy: 248, 246
+  xy: 248, 786
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest
   rotate: false
-  xy: 330, 324
+  xy: 330, 864
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Aluminum
   rotate: false
-  xy: 412, 404
+  xy: 412, 944
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Antiquity Site
   rotate: false
-  xy: 412, 324
+  xy: 2, 474
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Camp+Deer
   rotate: false
-  xy: 494, 404
+  xy: 84, 552
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Camp+Furs
   rotate: false
-  xy: 494, 324
+  xy: 166, 628
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Camp+Truffles
   rotate: false
-  xy: 576, 404
+  xy: 248, 706
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Citrus
   rotate: false
-  xy: 576, 324
+  xy: 330, 784
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Coal
   rotate: false
-  xy: 658, 404
+  xy: 412, 864
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Copper
   rotate: false
-  xy: 658, 324
+  xy: 2, 394
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Deer
   rotate: false
-  xy: 740, 404
+  xy: 84, 472
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Dyes
   rotate: false
-  xy: 740, 324
+  xy: 166, 548
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Furs
   rotate: false
-  xy: 822, 404
+  xy: 248, 626
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Gems
   rotate: false
-  xy: 822, 324
+  xy: 330, 704
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Gold
   rotate: false
-  xy: 904, 404
+  xy: 412, 784
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Iron
   rotate: false
-  xy: 904, 324
+  xy: 2, 314
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Lumber mill
   rotate: false
-  xy: 986, 404
+  xy: 84, 392
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+SIlk
   rotate: false
-  xy: 986, 324
+  xy: 166, 468
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Sacred Grove
   rotate: false
-  xy: 1068, 404
+  xy: 248, 546
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Silver
   rotate: false
-  xy: 1068, 324
+  xy: 330, 624
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Spices
   rotate: false
-  xy: 1150, 404
+  xy: 412, 704
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Trading post
   rotate: false
-  xy: 1150, 324
+  xy: 2, 234
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Truffles
   rotate: false
-  xy: 1232, 404
+  xy: 84, 312
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Uranium
   rotate: false
-  xy: 1232, 324
+  xy: 166, 388
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine
   rotate: false
-  xy: 1314, 404
+  xy: 248, 466
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Aluminum
   rotate: false
-  xy: 1314, 324
+  xy: 330, 544
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Coal
   rotate: false
-  xy: 1396, 404
+  xy: 412, 624
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Copper
   rotate: false
-  xy: 1396, 324
+  xy: 2, 154
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Gems
   rotate: false
-  xy: 1478, 404
+  xy: 84, 232
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Gold
   rotate: false
-  xy: 1478, 324
+  xy: 166, 308
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Iron
   rotate: false
-  xy: 1560, 404
+  xy: 248, 386
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Salt
   rotate: false
-  xy: 1560, 324
+  xy: 330, 464
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Silver
   rotate: false
-  xy: 1642, 404
+  xy: 412, 544
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Uranium
   rotate: false
-  xy: 1642, 324
+  xy: 2, 74
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Quarry+Marble
   rotate: false
-  xy: 1724, 404
+  xy: 84, 152
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Quarry+Stone
   rotate: false
-  xy: 1724, 324
+  xy: 166, 228
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Terrace farm
   rotate: false
-  xy: 1806, 404
+  xy: 248, 306
   size: 80, 78
   orig: 80, 78
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Mine+Aluminum
   rotate: false
-  xy: 84, 20
+  xy: 2, 2
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Mine+Coal
   rotate: false
-  xy: 166, 96
+  xy: 330, 392
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Mine+Gems
   rotate: false
-  xy: 248, 174
+  xy: 412, 472
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Mine+Gold
   rotate: false
-  xy: 330, 252
+  xy: 84, 80
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Mine+Iron
   rotate: false
-  xy: 1806, 332
+  xy: 166, 156
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Mine+Silver
   rotate: false
-  xy: 1888, 412
+  xy: 248, 234
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Mine+Uranium
   rotate: false
-  xy: 166, 24
+  xy: 330, 320
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Trading post
   rotate: false
-  xy: 248, 96
+  xy: 84, 2
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Uranium
   rotate: false
-  xy: 412, 252
+  xy: 166, 84
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Whales
   rotate: false
-  xy: 494, 252
+  xy: 248, 90
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wheat
   rotate: false
-  xy: 330, 30
+  xy: 330, 170
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wine
   rotate: false
-  xy: 412, 102
+  xy: 412, 250
   size: 80, 76
   orig: 80, 76
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Turtle Ship
   rotate: false
-  xy: 330, 180
+  xy: 412, 400
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/War Chariot
   rotate: false
-  xy: 1888, 340
+  xy: 248, 162
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/War Elephant
   rotate: false
-  xy: 248, 24
+  xy: 330, 248
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior
   rotate: false
-  xy: 330, 108
+  xy: 412, 328
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/WaterUnit
   rotate: false
-  xy: 412, 180
+  xy: 166, 12
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Winged Hussar
   rotate: false
-  xy: 494, 180
+  xy: 248, 18
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats
   rotate: false
-  xy: 576, 252
+  xy: 330, 98
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker
   rotate: false
-  xy: 412, 30
+  xy: 412, 178
   size: 80, 70
   orig: 80, 70
   offset: 0, 0
