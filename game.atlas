@@ -1,8 +1,8 @@
 
 game.png
-size: 2048,2048
+size: 2048, 2048
 format: RGBA8888
-filter: MipMapLinearLinear,MipMapLinearLinear
+filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/China
   rotate: false
@@ -214,6 +214,13 @@ TileSets/FantasyHex/Tiles/City-Classical era
   orig: 80, 70
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/City-Atomic era
+  rotate: false
+  xy: 286, 1730
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/City-Future era
   rotate: false
   xy: 286, 1730
@@ -397,6 +404,13 @@ TileSets/FantasyHex/Tiles/Desert+Desert Hill+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert+Desert Hill+Gold
+  rotate: false
+  xy: 248, 500
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Gold Ore
   rotate: false
   xy: 248, 500
   size: 80, 76
@@ -599,6 +613,13 @@ TileSets/FantasyHex/Tiles/Desert+Flood plains+Mine+Gold
   orig: 80, 70
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Desert+Flood plains+Mine+Gold Ore
+  rotate: false
+  xy: 330, 778
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Desert+Flood plains+Mine+Iron
   rotate: false
   xy: 412, 872
@@ -753,6 +774,13 @@ TileSets/FantasyHex/Tiles/Desert+Hill+Mine+Gold
   orig: 80, 78
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Desert+Hill+Mine+Gold Ore
+  rotate: false
+  xy: 412, 2
+  size: 80, 78
+  orig: 80, 78
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Desert+Hill+Mine+Iron
   rotate: false
   xy: 514, 1596
@@ -831,6 +859,13 @@ TileSets/FantasyHex/Tiles/Desert+Mine+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert+Mine+Gold
+  rotate: false
+  xy: 494, 750
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Desert+Mine+Gold Ore
   rotate: false
   xy: 494, 750
   size: 80, 70
@@ -991,6 +1026,13 @@ TileSets/FantasyHex/Tiles/Gold
   orig: 80, 70
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Gold Ore
+  rotate: false
+  xy: 1826, 1472
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Grand Mesa
   rotate: false
   xy: 1908, 1522
@@ -1132,6 +1174,13 @@ TileSets/FantasyHex/Tiles/Grassland+Forest+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Forest+Gold
+  rotate: false
+  xy: 740, 992
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Forest+Gold Ore
   rotate: false
   xy: 740, 992
   size: 80, 76
@@ -1348,6 +1397,13 @@ TileSets/FantasyHex/Tiles/Grassland+Hill+Forest+Gold
   orig: 80, 78
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Grassland+Hill+Forest+Gold Ore
+  rotate: false
+  xy: 822, 1144
+  size: 80, 78
+  orig: 80, 78
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Grassland+Hill+Forest+Iron
   rotate: false
   xy: 822, 1064
@@ -1502,6 +1558,13 @@ TileSets/FantasyHex/Tiles/Grassland+Hill+Jungle+Gold
   orig: 80, 78
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Grassland+Hill+Jungle+Gold Ore
+  rotate: false
+  xy: 904, 796
+  size: 80, 78
+  orig: 80, 78
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Grassland+Hill+Jungle+Iron
   rotate: false
   xy: 904, 716
@@ -1594,6 +1657,13 @@ TileSets/FantasyHex/Tiles/Grassland+Hill+Mine+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Hill+Mine+Gold
+  rotate: false
+  xy: 986, 970
+  size: 80, 78
+  orig: 80, 78
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Hill+Mine+Gold Ore
   rotate: false
   xy: 986, 970
   size: 80, 78
@@ -1734,6 +1804,13 @@ TileSets/FantasyHex/Tiles/Grassland+Jungle+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Jungle+Gold
+  rotate: false
+  xy: 1662, 1316
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Jungle+Gold Ore
   rotate: false
   xy: 1662, 1316
   size: 80, 76
@@ -1895,6 +1972,13 @@ TileSets/FantasyHex/Tiles/Grassland+Mine+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Mine+Gold
+  rotate: false
+  xy: 1150, 1166
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Mine+Gold Ore
   rotate: false
   xy: 1150, 1166
   size: 80, 70
@@ -2076,6 +2160,13 @@ TileSets/FantasyHex/Tiles/Hill+Forest+Gold
   orig: 80, 76
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Hill+Forest+Gold Ore
+  rotate: false
+  xy: 1478, 696
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Hill+Forest+Iron
   rotate: false
   xy: 1560, 776
@@ -2182,6 +2273,13 @@ TileSets/FantasyHex/Tiles/Hill+Mine+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Hill+Mine+Gold
+  rotate: false
+  xy: 1560, 398
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hill+Mine+Gold Ore
   rotate: false
   xy: 1560, 398
   size: 80, 70
@@ -4577,9 +4675,9 @@ TileSets/FantasyHex/Units/Khan
   index: -1
 
 game2.png
-size: 2048,2048
+size: 2048, 2048
 format: RGBA8888
-filter: MipMapLinearLinear,MipMapLinearLinear
+filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 OtherIcons/Triangle
   rotate: false
@@ -4708,6 +4806,13 @@ TileSets/FantasyHex/Tiles/Mine+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mine+Gold
+  rotate: false
+  xy: 84, 1154
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mine+Gold Ore
   rotate: false
   xy: 84, 1154
   size: 80, 70
@@ -5022,6 +5127,13 @@ TileSets/FantasyHex/Tiles/Plains+Forest+Gold
   orig: 80, 76
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Plains+Forest+Gold Ore
+  rotate: false
+  xy: 494, 932
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Plains+Forest+Iron
   rotate: false
   xy: 576, 998
@@ -5190,6 +5302,13 @@ TileSets/FantasyHex/Tiles/Plains+Hill+Jungle+Gold
   orig: 80, 78
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Plains+Hill+Jungle+Gold Ore
+  rotate: false
+  xy: 740, 1058
+  size: 80, 78
+  orig: 80, 78
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Plains+Hill+Jungle+Iron
   rotate: false
   xy: 822, 1140
@@ -5344,6 +5463,13 @@ TileSets/FantasyHex/Tiles/Plains+Jungle+Gold
   orig: 80, 76
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Plains+Jungle+Gold Ore
+  rotate: false
+  xy: 740, 980
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Plains+Jungle+Iron
   rotate: false
   xy: 822, 1062
@@ -5429,6 +5555,13 @@ TileSets/FantasyHex/Tiles/Plains+Mine+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Mine+Gold
+  rotate: false
+  xy: 1806, 1946
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Mine+Gold Ore
   rotate: false
   xy: 1806, 1946
   size: 80, 70
@@ -5785,6 +5918,13 @@ TileSets/FantasyHex/Tiles/Snow+HIll+Mine+Gold
   orig: 80, 78
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Snow+HIll+Mine+Gold Ore
+  rotate: false
+  xy: 1068, 806
+  size: 80, 78
+  orig: 80, 78
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Snow+HIll+Mine+Iron
   rotate: false
   xy: 1150, 874
@@ -5856,6 +5996,13 @@ TileSets/FantasyHex/Tiles/Snow+Mine+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow+Mine+Gold
+  rotate: false
+  xy: 576, 398
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Snow+Mine+Gold Ore
   rotate: false
   xy: 576, 398
   size: 80, 70
@@ -6073,6 +6220,13 @@ TileSets/FantasyHex/Tiles/Tundra+Forest+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Gold
+  rotate: false
+  xy: 1806, 1206
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+Forest+Gold Ore
   rotate: false
   xy: 1806, 1206
   size: 80, 76
@@ -6303,6 +6457,13 @@ TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Gold
   orig: 80, 78
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Gold Ore
+  rotate: false
+  xy: 1888, 800
+  size: 80, 78
+  orig: 80, 78
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Iron
   rotate: false
   xy: 84, 2
@@ -6408,6 +6569,13 @@ TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Gold
   orig: 80, 78
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Gold Ore
+  rotate: false
+  xy: 1232, 490
+  size: 80, 78
+  orig: 80, 78
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Mine+Iron
   rotate: false
   xy: 1314, 546
@@ -6479,6 +6647,13 @@ TileSets/FantasyHex/Tiles/Tundra+Mine+Gems
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Mine+Gold
+  rotate: false
+  xy: 1396, 496
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+Mine+Gold Ore
   rotate: false
   xy: 1396, 496
   size: 80, 70
