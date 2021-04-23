@@ -1,0 +1,205 @@
+{
+    "useColorAsBaseTerrain": "false",
+    "ruleVariants": {
+// other
+	        "Coast+Oil well": ["Coast","Oil well"],
+// plains
+		"Plains+Jungle+Oil": ["Plains","Oil","Jungle"]
+		"Plains+Jungle+Gold": ["Plains","Gold Ore","Jungle"]
+		"Plains+Jungle+Gems": ["Plains","Gems","Jungle"]
+		"Plains+Jungle+Gold Ore": ["Plains","Gold Ore","Jungle"]
+		"Plains+Jungle+Coal": ["Plains","Coal","Jungle"]
+		"Plains+Jungle+Uranium": ["Plains","Uranium","Jungle"]
+		"Plains+Jungle+Aluminum": ["Plains","Aluminum","Jungle"]
+		"Plains+Jungle+Iron": ["Plains","Iron","Jungle"]
+		"Plains+Jungle+Silver": ["Plains","Silver","Jungle"]
+		"Plains+Jungle+Copper": ["Plains","Copper","Jungle"]
+		"Plains+Forest+Oil": ["Plains","Oil","Forest"]
+		"Plains+Forest+Gold": ["Plains","Gold Ore","Forest"]
+		"Plains+Forest+Gems": ["Plains","Gems","Forest"]
+		"Plains+Forest+Gold Ore": ["Plains","Gold Ore","Forest"]
+		"Plains+Forest+Coal": ["Plains","Coal","Forest"]
+		"Plains+Forest+Uranium": ["Plains","Uranium","Forest"]
+		"Plains+Forest+Aluminum": ["Plains","Aluminum","Forest"]
+		"Plains+Forest+Iron": ["Plains","Iron","Forest"]
+		"Plains+Forest+Silver": ["Plains","Silver","Forest"]
+		"Plains+Forest+Copper": ["Plains","Copper","Forest"]
+
+// graslands
+		"Grassland+Jungle+Oil": ["Grassland","Oil","Jungle"]
+		"Grassland+Jungle+Gold": ["Grassland","Gold Ore","Jungle"]
+		"Grassland+Jungle+Gems": ["Grassland","Gems","Jungle"]
+		"Grassland+Jungle+Gold Ore": ["Grassland","Gold Ore","Jungle"]
+		"Grassland+Jungle+Coal": ["Grassland","Coal","Jungle"]
+		"Grassland+Jungle+Uranium": ["Grassland","Uranium","Jungle"]
+		"Grassland+Jungle+Aluminum": ["Grassland","Aluminum","Jungle"]
+		"Grassland+Jungle+Iron": ["Grassland","Iron","Jungle"]
+		"Grassland+Jungle+Silver": ["Grassland","Silver","Jungle"]
+		"Grassland+Jungle+Copper": ["Grassland","Copper","Jungle"]
+		"Grassland+Forest+Oil": ["Grassland","Oil","Forest"]
+		"Grassland+Forest+Gold": ["Grassland","Gold Ore","Forest"]
+		"Grassland+Forest+Gems": ["Grassland","Gems","Forest"]
+		"Grassland+Forest+Gold Ore": ["Grassland","Gold Ore","Forest"]
+		"Grassland+Forest+Coal": ["Grassland","Coal","Forest"]
+		"Grassland+Forest+Uranium": ["Grassland","Uranium","Forest"]
+		"Grassland+Forest+Aluminum": ["Grassland","Aluminum","Forest"]
+		"Grassland+Forest+Iron": ["Grassland","Iron","Forest"]
+		"Grassland+Forest+Silver": ["Grassland","Silver","Forest"]
+		"Grassland+Forest+Copper": ["Grassland","Copper","Forest"]
+
+//hills
+		
+		"Hill": ["Plains","Hill"],
+        "Hill+Ancient ruins": ["Plains","Hill","Ancient ruins"],
+		
+        "Hill+Sheep": ["Plains","Hill","Sheep"],
+        "Hill+Antiquity Site": ["Plains","Hill","Antiquity Site"],	
+        "Hill+Antiquity Site+Ancient ruins": ["Plains","Hill","Antiquity Site","Ancient ruins"],			
+        "Hill+Sheep+Ancient ruins": ["Plains","Hill","Sheep","Ancient ruins"],
+        "Hill+Sheep+Pasture": ["Plains","Hill","Sheep+Pasture"],
+        "Hill+Horses": ["Plains","Hill","Horses"],
+        "Hill+Horses+Ancient ruins": ["Plains","Hill","Horses","Ancient ruins"],
+        "Hill+Horses+Pasture": ["Plains","Hill","Horses+Pasture"],
+        "Hill+Deer": ["Plains","Hill","Deer"],
+        "Hill+Deer+Ancient ruins": ["Plains","Hill","Deer","Ancient ruins"],
+        "Hill+Deer+Camp": ["Plains","Hill","Deer+Camp"],
+
+        "Hill+Iron": ["Plains","Hill","Iron"],
+        "Hill+Iron+Ancient ruins": ["Plains","Hill","Iron","Ancient ruins"],
+        "Hill+Iron+Mine": ["Plains","Hill","Iron+Mine"],
+        "Hill+Aluminum": ["Plains","Hill","Aluminum"],
+        "Hill+Aluminum+Ancient ruins": ["Plains","Hill","Aluminum","Ancient ruins"],
+        "Hill+Aluminum+Mine": ["Plains","Hill","Aluminum+Mine"],
+        "Hill+Uranium": ["Plains","Hill","Uranium"],
+        "Hill+Uranium+Ancient ruins": ["Plains","Hill","Uranium","Ancient ruins"],
+        "Hill+Uranium+Mine": ["Plains","Hill","Uranium+Mine"],
+        "Hill+Coal": ["Plains","Hill","Coal"],
+        "Hill+Coal+Ancient ruins": ["Plains","Hill","Coal","Ancient ruins"],
+        "Hill+Coal+Mine": ["Plains","Hill","Coal+Mine"],
+        
+		"Hill+Citrus": ["Plains","Hill","Citrus"],
+		"Hill+Truffles": ["Plains","Hill","Truffles"],
+		"Hill+Citrus+Ancient ruins": ["Plains","Hill","Citrus","Ancient ruins"],
+		"Hill+Truffles+Ancient ruins": ["Plains","Hill","Truffles","Ancient ruins"],
+		"Hill+Truffles+Camp": ["Plains","Hill","Truffles+Camp"],
+        "Hill+Silver": ["Plains","Hill","Silver"],
+        "Hill+Silver+Ancient ruins": ["Plains","Hill","Silver","Ancient ruins"],
+        "Hill+Silver+Mine": ["Plains","Hill","Silver+Mine"],
+        "Hill+Gold Ore": ["Plains","Hill","Gold Ore"],
+        "Hill+Gold Ore+Ancient ruins": ["Plains","Hill","Gold Ore","Ancient ruins"],
+        "Hill+Gold Ore+Mine": ["Plains","Hill","Gold Ore+Mine"],
+		"Hill+Gold": ["Plains","Hill","Gold Ore"],
+        "Hill+Gold+Ancient ruins": ["Plains","Hill","Gold Ore","Ancient ruins"],
+        "Hill+Gold+Mine": ["Plains","Hill","Gold Ore+Mine"],
+        "Hill+Marble": ["Plains","Hill","Marble"],
+        "Hill+Marble+Ancient ruins": ["Plains","Hill","Marble","Ancient ruins"],
+        "Hill+Marble+Quarry": ["Plains","Hill","Quarry+Marble"],
+        "Hill+Gems": ["Plains","Hill","Gems"],
+        "Hill+Gems+Ancient ruins": ["Plains","Hill","Gems","Ancient ruins"],
+        "Hill+Gems+Mine": ["Plains","Hill","Gems+Mine"],
+        "Hill+Dyes": ["Plains","Hill","Dyes"],
+        "Hill+Dyes+Ancient ruins": ["Plains","Hill","Dyes","Ancient ruins"],
+        "Hill+Dyes+Plantation": ["Plains","Hill","Dyes+Plantation"],
+        "Hill+Spices": ["Plains","Hill","Spices"],
+        "Hill+Spices+Ancient ruins": ["Plains","Hill","Spices","Ancient ruins"],
+        "Hill+Spices+Plantation": ["Plains","Hill","Spices+Plantation"],
+        "Hill+Silk": ["Plains","Hill","Silk"],
+        "Hill+Silk+Ancient ruins": ["Plains","Hill","Silk","Ancient ruins"],
+        "Hill+Silk+Plantation": ["Plains","Hill","Silk+Plantation"],
+        "Hill+Furs": ["Plains","Hill","Furs"],
+        "Hill+Furs+Ancient ruins": ["Plains","Hill","Furs","Ancient ruins"],
+        "Hill+Furs+Camp": ["Plains","Hill","Furs+Camp"]
+		
+		"Hill+Forest": ["Plains","Hill","HF"]
+		"Hill+Forest+Antiquity Site": ["Plains","Hill","HF","Antiquity Site"]
+		"Hill+Forest+Iron": ["Plains","Hill","Iron","HF"]
+		"Hill+Forest+Uranium": ["Plains","Hill","Uranium","HF"]
+		"Hill+Forest+Silver": ["Plains","Hill","Silver","HF"]
+		"Hill+Forest+Aluminum": ["Plains","Hill","Aluminum","HF"]
+		"Hill+Forest+Gold": ["Plains","Hill","Gold Ore","HF"]	
+		"Hill+Forest+Gold Ore": ["Plains","Hill","Gold Ore","HF"]
+		"Hill+Forest+Gems": ["Plains","Hill","Gems","HF"]			
+		"Hill+Forest+Citrus": ["Plains","Hill","HF+Citrus"]
+		"Hill+Forest+Deer": ["Plains","Hill","HF+Deer"]
+		"Hill+Forest+Deer+Camp": ["Plains","Hill","HF+Deer+Camp"]
+		"Hill+Forest+Dyes": ["Plains","Hill","HF+Dyes"]
+		"Hill+Forest+Furs": ["Plains","Hill","HF+Furs"]
+		"Hill+Forest+Furs+Camp": ["Plains","Hill","HF+Furs+Camp"]
+		"Hill+Forest+Lumber mill": ["Plains","Hill","HF+Lumber mill"]
+		"Hill+Forest+Sacred Grove": ["Plains","Hill","HF+Sacred Grove"]
+		"Hill+Forest+Silk": ["Plains","Hill","HF+Silk"]
+		"Hill+Forest+Spices": ["Plains","Hill","HF+Spices"]
+		"Hill+Forest+Trading post": ["Plains","Hill","HF+Trading post"]
+		"Hill+Forest+Truffles": ["Plains","Hill","HF+Truffles"]
+		"Hill+Forest+Truffles+Camp": ["Plains","Hill","HF+Truffles+Camp"]
+		
+		"Hill+Forest+Ancient ruins": ["Plains","Hill","HF","Ancient ruins"]
+		"Hill+Forest+Antiquity Site+Ancient ruins": ["Plains","Hill","HF","Antiquity Site","Ancient ruins"]
+		"Hill+Forest+Iron+Ancient ruins": ["Plains","Hill","Iron","HF","Ancient ruins"]
+		"Hill+Forest+Uranium+Ancient ruins": ["Plains","Hill","Uranium","HF","Ancient ruins"]
+		"Hill+Forest+Silver+Ancient ruins": ["Plains","Hill","Silver","HF","Ancient ruins"]
+		"Hill+Forest+Aluminum+Ancient ruins": ["Plains","Hill","Aluminum","HF","Ancient ruins"]
+		"Hill+Forest+Gold+Ancient ruins": ["Plains","Hill","Gold Ore","HF","Ancient ruins"]	
+		"Hill+Forest+Gold Ore+Ancient ruins": ["Plains","Hill","Gold Ore","HF","Ancient ruins"]
+		"Hill+Forest+Gems+Ancient ruins": ["Plains","Hill","Gems","HF","Ancient ruins"]			
+		"Hill+Forest+Citrus+Ancient ruins": ["Plains","Hill","HF+Citrus","Ancient ruins"]
+		"Hill+Forest+Deer+Ancient ruins": ["Plains","Hill","HF+Deer","Ancient ruins"]
+		"Hill+Forest+Deer+Camp+Ancient ruins": ["Plains","Hill","HF+Deer+Camp","Ancient ruins"]
+		"Hill+Forest+Dyes+Ancient ruins": ["Plains","Hill","HF+Dyes","Ancient ruins"]
+		"Hill+Forest+Furs+Ancient ruins": ["Plains","Hill","HF+Furs","Ancient ruins"]
+		"Hill+Forest+Furs+Camp+Ancient ruins": ["Plains","Hill","HF+Furs+Camp","Ancient ruins"]
+		"Hill+Forest+Lumber mill+Ancient ruins": ["Plains","Hill","HF+Lumber mill","Ancient ruins"]
+		"Hill+Forest+Sacred Grove+Ancient ruins": ["Plains","Hill","HF+Sacred Grove","Ancient ruins"]
+		"Hill+Forest+Silk+Ancient ruins": ["Plains","Hill","HF+Silk","Ancient ruins"]
+		"Hill+Forest+Spices+Ancient ruins": ["Plains","Hill","HF+Spices","Ancient ruins"]
+		"Hill+Forest+Trading post+Ancient ruins": ["Plains","Hill","HF+Trading post","Ancient ruins"]
+		"Hill+Forest+Truffles+Ancient ruins": ["Plains","Hill","HF+Truffles","Ancient ruins"]
+		"Hill+Forest+Truffles+Camp+Ancient ruins": ["Plains","Hill","HF+Truffles+Camp","Ancient ruins"]
+		
+// tundra
+		"Tundra+Forest": ["Tundra","TF"]
+		"Tundra+Forest+Iron": ["Tundra","Iron","TF"]
+		"Tundra+Forest+Silver": ["Tundra","Silver","TF"]
+		"Tundra+Forest+Aluminum": ["Tundra","Aluminum","TF"]
+		"Tundra+Forest+Aluminum": ["Tundra","Uranium","TF"]
+		"Tundra+Forest+Gold": ["Tundra","Gold Ore","TF"]	
+		"Tundra+Forest+Gold Ore": ["Tundra","Gold Ore","TF"]
+		"Tundra+Forest+Gems": ["Tundra","Gems","TF"]			
+		"Tundra+Forest+Citrus": ["Tundra","TF+Citrus"]
+		"Tundra+Forest+Deer": ["Tundra","TF+Deer"]
+		"Tundra+Forest+Deer+Camp": ["Tundra","TF+Deer+Camp"]
+		"Tundra+Forest+Dyes": ["Tundra","TF+Dyes"]
+		"Tundra+Forest+Furs": ["Tundra","TF+Furs"]
+		"Tundra+Forest+Furs+Camp": ["Tundra","TF+Furs+Camp"]
+		"Tundra+Forest+Lumber mill": ["Tundra","TF+Lumber mill"]
+		"Tundra+Forest+Sacred Grove": ["Tundra","TF+Sacred Grove"]
+		"Tundra+Forest+Silk": ["Tundra","TF+Silk"]
+		"Tundra+Forest+Spices": ["Tundra","TF+Spices"]
+		"Tundra+Forest+Trading post": ["Tundra","TF+Trading post"]
+		"Tundra+Forest+Truffles": ["Tundra","TF+Truffles"]
+		"Tundra+Forest+Truffles+Camp": ["Tundra","TF+Truffles+Camp"]
+		
+		"Tundra+Forest+Ancient ruins": ["Tundra","TF","Ancient ruins"]
+		"Tundra+Forest+Iron+Ancient ruins": ["Tundra","Iron","TF","Ancient ruins"]
+		"Tundra+Forest+Silver+Ancient ruins": ["Tundra","Silver","TF","Ancient ruins"]
+		"Tundra+Forest+Aluminum+Ancient ruins": ["Tundra","Aluminum","TF","Ancient ruins"]
+		"Tundra+Forest+Aluminum+Ancient ruins": ["Tundra","Uranium","TF","Ancient ruins"]
+		"Tundra+Forest+Gold+Ancient ruins": ["Tundra","Gold Ore","TF","Ancient ruins"]	
+		"Tundra+Forest+Gold Ore+Ancient ruins": ["Tundra","Gold Ore","TF","Ancient ruins"]
+		"Tundra+Forest+Gems+Ancient ruins": ["Tundra","Gems","TF","Ancient ruins"]			
+		"Tundra+Forest+Citrus+Ancient ruins": ["Tundra","TF+Citrus","Ancient ruins"]
+		"Tundra+Forest+Deer+Ancient ruins": ["Tundra","TF+Deer","Ancient ruins"]
+		"Tundra+Forest+Deer+Camp+Ancient ruins": ["Tundra","TF+Deer+Camp","Ancient ruins"]
+		"Tundra+Forest+Dyes+Ancient ruins": ["Tundra","TF+Dyes","Ancient ruins"]
+		"Tundra+Forest+Furs+Ancient ruins": ["Tundra","TF+Furs","Ancient ruins"]
+		"Tundra+Forest+Furs+Camp+Ancient ruins": ["Tundra","TF+Furs+Camp","Ancient ruins"]
+		"Tundra+Forest+Lumber mill+Ancient ruins": ["Tundra","TF+Lumber mill","Ancient ruins"]
+		"Tundra+Forest+Sacred Grove+Ancient ruins": ["Tundra","TF+Sacred Grove","Ancient ruins"]
+		"Tundra+Forest+Silk+Ancient ruins": ["Tundra","TF+Silk","Ancient ruins"]
+		"Tundra+Forest+Spices+Ancient ruins": ["Tundra","TF+Spices","Ancient ruins"]
+		"Tundra+Forest+Trading post+Ancient ruins": ["Tundra","TF+Trading post","Ancient ruins"]
+		"Tundra+Forest+Truffles+Ancient ruins": ["Tundra","TF+Truffles","Ancient ruins"]
+		"Tundra+Forest+Truffles+Camp+Ancient ruins": ["Tundra","TF+Truffles+Camp","Ancient ruins"]
+		
+    }
+}
