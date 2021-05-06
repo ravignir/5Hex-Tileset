@@ -1,9 +1,9 @@
-# 5Hex V1.4g
+# 5Hex V1.41g
 A MASSIVE tileset Unciv mod.
 
 5Hex is a tileset/retexture mod which adds new tileset images - including missing stuff from the expansions.
 
-This mod is compatible with the following mods (as of 23.04.2021):
+This mod is compatible with the following mods (as of 06.05.2021):
 -Civ5 Expansion mod by Red11
 -Medieval Civilizations
 -Ancient Civilizations
