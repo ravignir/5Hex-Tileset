@@ -14,5 +14,5 @@ If you find some missing textures - contact me!
 ------THEORY------
 In theory 5Hex had some main design principles - and some of them are now being used (like layer rendering), but it still can improve with the coding support:
 
-- Forest and Jungle tiles are created out of single trees sprites
-- Cities can be build out of single buildings, so players can say what buildings and what type of walls are already built in the city just by looking at the sprite.
+- Forest and Jungle tiles can be created out of individual min-tree sprites
+- Similarly cities can be build out of single buildings, so players can say what buildings and what type of walls are already built in the city just by looking at the sprite.
