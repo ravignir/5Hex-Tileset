@@ -4700,7 +4700,14 @@ TileSets/5Hex/Tiles/TF+Truffles+Camp
   orig: 80, 76
   offset: 0, 0
   index: -1
-TileSets/5Hex/Tiles/TerraceFarm
+TileSets/5Hex/Tiles/Terrace farm
+  rotate: false
+  xy: 1150, 574
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/TerraceFarm
   rotate: false
   xy: 1150, 574
   size: 80, 70
