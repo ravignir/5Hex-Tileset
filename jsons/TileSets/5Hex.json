@@ -13,7 +13,7 @@
 	    	"Plains+Hill+Forest+Lumber mill": ["Plains","Hill","HF+Lumber mill"]
 	    	"Grassland+Hill+Forest+Lumber mill": ["Grassland","Hill","HF+Lumber mill"]
 		"Tundra+Hill+Forest+Lumber mill": ["Tundra","Hill","HF+Lumber mill"]
-	        "Coast+Oil well": ["Coast","Offshore platform"]
+	        "Coast+Oil+Oil well": ["Coast","Offshore platform"]
 	    	"Tundra+Academy": ["Tundra","AcademySnowy"]
 	   	"Snow+Academy": ["Snow","AcademySnowy"]
 		"Tundra+Ancient ruins": ["Tundra","AncientRuinsSnowTundra"]
