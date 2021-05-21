@@ -3,7 +3,7 @@
 		"unexploredTileColor": {"r":1,"g":1,"b":1,"a":1}, //White
 	"fogOfWarColor": {"r":0,"g":0,"b":0,"a":1}, //Black
     "ruleVariants": {
-// other
+// other	
 		"Forest+Lumber mill": ["Forest+Lumber mill"]
 	    	"Plains+Forest+Lumber mill": ["Plains","Forest+Lumber mill"]
 	    	"Plains+Forest": ["Plains","Forest"] //maybe?
@@ -20,6 +20,8 @@
 	    	"Snow+Ancient ruins": ["Snow","AncientRuinsSnowTundra"]
 		"Tundra+Hill+Ancient ruins": ["Tundra","Hill","HillD","AncientRuinsSnowTundra"]
 	    	"Snow+Hill+Ancient ruins": ["Snow","HillR","AncientRuinsSnowTundra"]
+	    	"Desert+Ancient ruins": ["Desert","AncientRuinsDesert"]
+	    	"Desert+Hill+Ancient ruins": ["Desert","HillR","AncientRuinsDesert"]
 // plains
 		"Plains+Jungle+Antiquity Site": ["Plains","Oil","Antiquity Site","Jungle"]
 		"Plains+Jungle+Oil": ["Plains","Oil","Jungle"]
