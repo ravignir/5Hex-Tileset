@@ -5,10 +5,10 @@
     "ruleVariants": {
 // other
 		"Forest+Lumber mill": ["Forest+Lumber mill"]
-	    	"Plains+Forest+Lumber mill": ["Plains","TF+Lumber mill"]
+	    	"Plains+Forest+Lumber mill": ["Plains","Forest+Lumber mill"]
 	    	"Plains+Forest": ["Plains","Forest"] //maybe?
 	    	"Grassland+Forest": ["Grassland","Forest"]	  //no idea tho  
-	    	"Grassland+Forest+Lumber mill": ["Grassland","HF+Lumber mill"]
+	    	"Grassland+Forest+Lumber mill": ["Grassland","Forest+Lumber mill"]
 	    	"Tundra+Forest+Lumber mill": ["Tundra","TF+Lumber mill"]
 	    	"Plains+Hill+Forest+Lumber mill": ["Plains","Hill","HF+Lumber mill"]
 	    	"Grassland+Hill+Forest+Lumber mill": ["Grassland","Hill","HF+Lumber mill"]
