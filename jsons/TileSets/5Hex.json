@@ -4,6 +4,7 @@
 	"fogOfWarColor": {"r":0,"g":0,"b":0,"a":1}, //Black
     "ruleVariants": {
 // other
+		"Forest+Lumber mill": ["Forest+Lumber mill"]
 	    	"Plains+Lumber mill+Forest": ["Plains","Forest+Lumber mill"]
 	    	"Grassland+Lumber mill+Forest": ["Grassland","Forest+Lumber mill"]
 	    	"Tundra+Forest+Lumber mill": ["Tundra","TF+Lumber mill"]
