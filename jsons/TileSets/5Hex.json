@@ -178,6 +178,14 @@
 		"Hill+Forest+Trading post+Ancient ruins": ["Plains","Hill","HF+Trading post","AncientRuinsForests"]
 		"Hill+Forest+Truffles+Ancient ruins": ["Plains","Hill","HF+Truffles","AncientRuinsForests"]
 		"Hill+Forest+Truffles+Camp+Ancient ruins": ["Plains","Hill","HF+Truffles+Camp","AncientRuinsForests"]
+			    	"Plains+Forest+Hardwood+Lumber mill": ["Plains","Forest+Hardwood+Lumber mill"]
+			"Tundra+Forest+Hardwood+Lumber mill": ["Tundra","TF+Hardwood+Lumber mill"]
+			"Grassland+Forest+Hardwood+Lumber mill": ["Grassland","Forest+Hardwood+Lumber mill"]
+			"Plains+Hill+Forest+Hardwood+Lumber mill": ["Plains","Hill","HF+Hardwood+Lumber mill"]
+			"Tundra+Hill+Forest+Hardwood+Lumber mill": ["Tundra","Hill","HF+Hardwood+Lumber mill"]
+			"Grassland+Hill+Forest+Hardwood+Lumber mill": ["Grassland","Hill","HF+Hardwood+Lumber mill"]
+			"Plains+Jungle+Brazilwood Camp": ["Plains","Jungle+Brazilwood Camp"]
+			"Grassland+Jungle+Brazilwood Camp": ["Grassland","Jungle+Brazilwood camp"]
 		
 // tundra
 		"Tundra+Forest": ["Tundra","TF"]
