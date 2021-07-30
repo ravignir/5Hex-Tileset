@@ -788,7 +788,7 @@ TileSets/5Hex/Tiles/Holy Place
   orig: 80, 80
   offset: 0, 0
   index: -1
-TileSets/5Hex/Tiles/Holy Site
+TileSets/5Hex/Tiles/Holy site
   rotate: false
   xy: 822, 784
   size: 80, 80
