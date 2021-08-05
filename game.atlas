@@ -4351,14 +4351,14 @@ TileSets/5Hex/Units/Paratrooper-1
   orig: 80, 70
   offset: 0, 0
   index: -1
-TileSets/5Hex/road
+TileSets/5Hex/Road
   rotate: false
   xy: 404, 1816
   size: 152, 28
   orig: 152, 28
   offset: 0, 0
   index: -1
-TileSets/Default/road
+TileSets/Default/Road
   rotate: false
   xy: 404, 1816
   size: 152, 28
