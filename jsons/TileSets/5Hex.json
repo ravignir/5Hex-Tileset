@@ -5,6 +5,7 @@
     "ruleVariants": {
 // other	
 		"Forest+Lumber mill": ["Forest+Lumber mill"]
+	    	"Plains+Lake Victoria": ["Lakes+Lake Victoria"]
 	    	"Plains+Forest+Lumber mill": ["Plains","Forest+Lumber mill"]
 	    	"Plains+Forest": ["Plains","Forest"] //maybe?
 	    	"Grassland+Forest": ["Grassland","Forest"]	  //no idea tho  
