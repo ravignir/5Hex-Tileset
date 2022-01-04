@@ -1,17 +1,16 @@
-# 5Hex V1.42g
-A MASSIVE tileset Unciv mod.
+![](./screenshot.png)
+![](./screenshot2.png)
 
-5Hex is a tileset/retexture mod which adds new tileset images - including missing stuff from the expansions. This tileset should be relatively future proof.
+This is an **experimental** fork of @ravignir's 5Hex tileset.
 
-This mod is compatible with the following mods:
--Civ5 Expansion mod by Red11
--Medieval Civilizations
--Ancient Civilizations
+This adds:
+- Terrain blending.
+- Unit and terrain feature shadows.
+- An automatic build system for adding such features onto the existing tileset images.
 
-If you find some missing textures - contact me!
+All the tile and unit art is by @ravignir!
 
-------THEORY------
-In theory 5Hex had some main design principles - and some of them are now being used (like layer rendering), but it still can improve with the coding support:
-
-- Forest and Jungle tiles can be created out of individual tiny tree sprites
-- Similarly cities can be build out of single buildings, so players can say what buildings and what type of walls are already built in the city just by looking at the sprite.
+See:
+- https://github.com/ravignir/5Hex-Tileset for the 5Hex tileset.
+- https://github.com/yairm210/Unciv/pull/5874 for game code support.
+- https://github.com/will-ca/Bubbly-Borders-Example if you just want the smooth borders.
