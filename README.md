@@ -8,7 +8,7 @@ This adds:
 - Unit and terrain feature shadows.
 - An automatic build system for adding such features onto the existing tileset images.
 
-All the tile and unit art is by @ravignir!
+All the tile and unit art is by @ravignir, licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License!
 
 See:
 - https://github.com/ravignir/5Hex-Tileset for the 5Hex tileset.
