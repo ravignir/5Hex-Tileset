@@ -15,3 +15,5 @@ In theory 5Hex had some main design principles - and some of them are now being 
 
 - Forest and Jungle tiles can be created out of individual tiny tree sprites
 - Similarly cities can be build out of single buildings, so players can say what buildings and what type of walls are already built in the city just by looking at the sprite.
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
