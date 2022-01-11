@@ -196,25 +196,81 @@ mogrifiers = {
 	'addBackground': lambda *layers: lambda fp: compositedHexImages(*layers, fp)
 }
 
-if __name__ == '__main__':
-	import sys, multiprocessing
-	try:
-		mogstr = sys.argv[1]
-		mogrifier = eval(mogstr, {**mogrifiers})
-		def mog(fp):
-			print(f"Doing {mogstr} on {fp}.")
-			mogrifier(fp).save(fp)
-	except Exception as e:
-		import os
-		print(repr(e))
-		if '__file__' not in globals():
-			__file__ = "TileTransformer.py"
-		print(f"""\n\nUsage: ./{os.path.basename(__file__)} "<command>(<*[[arg]=[value]]>)" [*files]""")
-		print("\nAvailable commands:")
-		for m, f in mogrifiers.items():
-			print(f"\t{m}({', '.join(f'{n}={v}' for n, v in zip(f.__code__.co_varnames, f.__defaults__ or iter(lambda: '*', None)))})")
-		print()
-	else:
-		with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
-			pool.map(mog, sys.argv[2:])
 
+flagSetters = {}
+
+def singleton(cls):
+	"""Decorator to turn a class into a single instance."""
+	return cls()
+
+@singleton
+class FLAGS:
+	"""Flags for the script run."""
+	MULTIPROCESSING = False
+
+def flag(*names):
+	"""Return a decorator to mark a function as representing a script run flag."""
+	def flagdeco(func):
+		for name in names:
+			flagSetters[name] = func
+		return func
+	return flagdeco
+
+@flag("-P", "--multiprocessing")
+def flagMultiprocessing(*argvs):
+	"""Use multiple processes and CPU cores to speed up the tileset build."""
+	print("Using multiprocessing.")
+	FLAGS.MULTIPROCESSING = True
+	return argvs
+
+@flag("-h", "--help")
+def flagHelp(*argvs):
+	"""Print this help text and exit."""
+	import os, sys
+	global __file__
+	if '__file__' not in globals():
+		__file__ = "TileTransformer.py"
+	print(f"""\n\nUsage: ./{os.path.basename(__file__)} [*options] "<command>(<*[[arg]=[value]]>)" [*files]""")
+	print("\nAvailable options:")
+	for func in set(flagSetters.values()):
+		print(f"\t{', '.join(k for k, v in flagSetters.items() if v is func)}\n\t\t{func.__doc__}")
+	print("\nAvailable commands:")
+	for m, f in mogrifiers.items():
+		print(f"\t{m}({', '.join(f'{n}={v}' for n, v in zip(f.__code__.co_varnames, f.__defaults__ or iter(lambda: '*', None)))})")
+	print()
+	sys.exit()
+	return argvs
+
+def doTransform(*argvs):
+	"""Consume the last arguments passed to a script run after all flags have been processed."""
+	import sys
+	mogstr = argvs[0]
+	mogrifier = eval(mogstr, {**mogrifiers})
+	global _MOG # Global for pickleability.
+	def _MOG(fp): 
+		print(f"Doing {mogstr} on {fp}.")
+		mogrifier(fp).save(fp)
+	inputs = argvs[1:]
+	if FLAGS.MULTIPROCESSING:
+		import multiprocessing
+		with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
+			pool.map(_MOG, inputs)
+	else:
+		print("Multiprocessing is disabled.")
+		for fp in inputs:
+			_MOG(fp)
+
+
+if __name__ == '__main__':
+	import sys
+	argv = tuple(sys.argv[1:])
+	try:
+		while (len(argv) or None) and argv[0] in flagSetters:
+			argv = flagSetters[argv[0]](*argv[1:])
+		if not argv:
+			raise RuntimeError("No command specified.")
+	except Exception as e:
+		print(f"Error: {e!r}")
+		flagHelp()
+	else:
+		doTransform(*argv)

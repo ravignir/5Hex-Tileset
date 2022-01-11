@@ -5,6 +5,9 @@
 # Alternatively, you could rewrite it entirely in Python.
 # Based on 5Hex.
 
+# Flags are propagated to TileTransformer.py.
+# E.G.: Use -P to enable multiprocessing.
+
 # ===LICENSE===
 # By https://github.com/will-ca/, https://github.com/Intralexical.
 # http://creativecommons.org/publicdomain/zero/1.0/
@@ -121,33 +124,33 @@ DROPSHADOW_TILES=("Tiles/Aluminum.png" "Tiles/Archaeological Dig.png" "Tiles/Ban
 
 ## Transform all tile images:
 
-"$transformer" "expand(scale=$SCALE, topmargin=1.0)" Tiles/*.png
+"$transformer" "$@" "expand(scale=$SCALE, topmargin=1.0)" Tiles/*.png
 
-"$transformer" "shearShadow(scale=$SCALE, base=0.5, opacity=0.7, blur=0.05, length=1.15, shear=0.6)" "${SHEARSHADOW_TILES[@]}"
-"$transformer" "dropShadow(scale=$SCALE, opacity=0.5, blur=0.01, x=0.05, y=0.05)" "${DROPSHADOW_TILES[@]}"
+"$transformer" "$@" "shearShadow(scale=$SCALE, base=0.5, opacity=0.7, blur=0.05, length=1.15, shear=0.6)" "${SHEARSHADOW_TILES[@]}"
+"$transformer" "$@" "dropShadow(scale=$SCALE, opacity=0.5, blur=0.01, x=0.05, y=0.05)" "${DROPSHADOW_TILES[@]}"
 
-"$transformer" "tesselate($SCALE)" "${FUZZ_TILES[@]}"
-"$transformer" "fuzzPolygonalFeather($SCALE, $FUZZEDSCALE)" "${FUZZ_TILES[@]}"
+"$transformer" "$@" "tesselate($SCALE)" "${FUZZ_TILES[@]}"
+"$transformer" "$@" "fuzzPolygonalFeather($SCALE, $FUZZEDSCALE)" "${FUZZ_TILES[@]}"
 
-"$transformer" "addBackground('$GRASSLAND')" "${BACKGROUND_GRASSLAND_TILES[@]}"
-"$transformer" "addBackground('$DESERT')" "${BACKGROUND_DESERT_TILES[@]}"
-"$transformer" "addBackground('$PLAINS')" "${BACKGROUND_PLAINS_TILES[@]}"
+"$transformer" "$@" "addBackground('$GRASSLAND')" "${BACKGROUND_GRASSLAND_TILES[@]}"
+"$transformer" "$@" "addBackground('$DESERT')" "${BACKGROUND_DESERT_TILES[@]}"
+"$transformer" "$@" "addBackground('$PLAINS')" "${BACKGROUND_PLAINS_TILES[@]}"
 
-#"$transformer" "shift($SCALE, y=$FUZZEDSHIFT)" "${BASE_TILES[@]}"
-#"$transformer" "shift($SCALE, y=$RIVERSHIFT)" "${RIVER_TILES[@]}"
+#"$transformer" "$@" "shift($SCALE, y=$FUZZEDSHIFT)" "${BASE_TILES[@]}"
+#"$transformer" "$@" "shift($SCALE, y=$RIVERSHIFT)" "${RIVER_TILES[@]}"
 
 
 ## Transform all unit images:
 
-"$transformer" "expand(scale=$SCALE, topmargin=1.0)" Units/*.png
-"$transformer" "shearShadow(scale=$SCALE, base=0.1, opacity=0.5, blur=0.015)" Units/*.png
+"$transformer" "$@" "expand(scale=$SCALE, topmargin=1.0)" Units/*.png
+"$transformer" "$@" "shearShadow(scale=$SCALE, base=0.1, opacity=0.5, blur=0.015)" Units/*.png
 
 
 ## Transform extra images:
 
-"$transformer" "expand(scale=$SCALE, topmargin=0)" Hexagon.png
-"$transformer" "expand(scale=$SCALE, topmargin=0)" Borders/*.png
-"$transformer" "expand(scale=$SCALE, topmargin=0)" Crosshair.png CrosshatchHexagon.png Highlight.png
+"$transformer" "$@" "expand(scale=$SCALE, topmargin=0)" Hexagon.png
+"$transformer" "$@" "expand(scale=$SCALE, topmargin=0)" Borders/*.png
+"$transformer" "$@" "expand(scale=$SCALE, topmargin=0)" Crosshair.png CrosshatchHexagon.png Highlight.png
 
 
 echo && echo "Tileset build complete."
